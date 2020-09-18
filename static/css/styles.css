@@ -70,12 +70,12 @@ div.dataTables_wrapper {
 table.dataTable {
     margin: 0 auto;
   }
-.btn-secondary {
-    margin-top: 7em;
-}
 .examp-text {
     font-weight: bold;
 }
 .examp-text2 {
     padding-left: 70px;
+}
+.btn-secondary {
+    margin-top: 7em;
 }
