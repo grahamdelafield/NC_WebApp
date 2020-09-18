@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "Accession": "A0A0B4J2D5",
+            "Gene name": "GATD3B",
+            "Description": "Glutamine amidotransferase-like class 1 domain-containing protein 3B, mitochondrial ",
+            "If ECM protein": "N",
+            "ECM category": "-",
+            "If significant among age groups (ANOVA, FDR 0.05)": "Y",
+            "log2FoldChange": -0.4966907666666689,
+            "pvalue": 0.0070523761175243765,
+            "J vs F log2FoldChange": -0.1348514999999999,
+            "J vs F pvalue": 0.21895921044227834,
+            "Y vs F log2FoldChange": -0.033067166666665315,
+            "Y vs F pvalue": 0.8198824829166782,
+            "O vs F log2FoldChange": 0.361839266666669,
+            "O vs F pvalue": 0.029953142522152795,
+            "Y vs J log2FoldChange": 0.4636236000000036,
+            "Y vs J pvalue": 0.020510217238433243,
+            "O vs J log2FoldChange": 0.10178433333333459,
+            "O vs J pvalue": 0.4979043158918398
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+.navbar.navbar-brand {
+    font-size: small;
+}
+.about-heading {
+     font-size: 64px;
+     margin-bottom:0.5em;
+ }
+.desc-text {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom:2.2em;
+}
+.desc-text-edit {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom:0.2em;
+}
+.download {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    display: inline-block;
+    background-color: rgb(13, 165, 46);
+    padding: 10px 20px;
+    margin: auto;
+    display: flex;
+}
+.card {
+    width: 250px;
+    height: 200px;
+}
+.card-title {
+    font-size: 26px;
+    text-align: center;
+}
+.person-card {
+    width: 325px;
+}
+.card-img-top {
+    width: 200px;
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+}
+.card-title {
+    text-align: left;
+}
+.person-card-text {
+    font-size: 16px;
+    padding: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    text-overflow: visible;
+}
+.input-group {
+    padding-top: 5rem;
+    height: 275px;
+    width: 500px;
+    padding: 5rem;
+}
+.input-group-text {
+    font-size: 16px;
+}
+div.dataTables_wrapper {
+    width: 1100px;
+    margin: 0 auto;
+}
+table.dataTable {
+    margin: 0 auto;
+  }
+.btn-secondary {
+    margin-top: 7em;
+}
+.examp-text {
+    font-weight: bold;
+}
+.examp-text2 {
+    padding-left: 70px;
+}

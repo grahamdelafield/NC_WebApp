@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block title %}Contact{% endblock %}
+{% block content %}
+<div class="container">
+    <h1 class="about-heading">Authors</h1>
+        <p class="desc-text">This is where will put the full citation.
+            </p>
+        <!-- <p class="desc-text">For question regarding the manuscript, methods, 
+            or data, please contact
+            <a href="mailto:zli597@wisc.edu">Zihui Li</a>.
+        </p>
+        <p class="desc-text">For questions regarding use of this data,
+            permissions/reprints, and research outlook, please contact
+            <a href="mailto:lingjun.li@wisc.edu">Dr. Lingjun Li</a>.
+        </p> -->
+    <section class="container">
+        <h2>Li Research Group</h2>
+        <div class="row">
+            <div class="col-xs ml-4 mr-5">
+                <div class="person-card" >
+                    <img src="{{url_for('static', filename='media/ZihuiLi.jpg')}}" class="card-img-top" alt="Zihui Li">
+                    <div class="card-body">
+                    <h5 class="card-title">Zihui Li</h5>
+                    <p class="person-card-text">PhD candidate</p>
+                        <p class="person-card-text">Department of Chemistry</p>
+                        <p class="person-card-text">University of Wisconsin-Madison</p>
+                        <p class="person-card-text">Email: <a href="mailto:zli597@wisc.edu">zli597@wisc.edu</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs mx-5">
+                <div class="person-card">
+                    <img src="{{url_for('static', filename='media/LingjunLi.jpg')}}" class="card-img-top" alt="Lingjun LI, Ph.D." intrinsicsize="264 x 337">
+                    <div class="card-body">
+                    <h5 class="card-title">Lingjun Li, Ph.D.</h5>
+                        <p class="person-card-text">Charles Melbourne Johnson Distinguished Chair</p>
+                        <p class="person-card-text">Vilas Distinguished Achievement Professor of Pharmaceutical Sciences and Chemistry</p>
+                        <p class="person-card-text">School of Pharmacy and Department of Chemistry</p>
+                        <p class="person-card-text">University of Wisconsin-Madison</p>
+                        <p class="person-card-text">Email: <a href="mailto:lingjun.li@wisc.edu">lingjun.li@wisc.edu</a></p>
+                    </div>
+                </div>
+            </div>
+    <section class="container">
+        <h2 style="padding-top: 3rem;">Odorico Lab</h2>
+        <div class="row">
+            <div class="col-xs ml-4 mr-5">
+                <div class="person-card">
+                    <img src="{{url_for('static', filename='media/DanielTremmel.jpg')}}" class="card-img-top" alt="Daniel Tremmel">
+                    <div class="card-body">
+                    <h5 class="card-title">Daniel Tremmel</h5>
+                    <p class="person-card-text">PhD candidate</p>
+                        <p class="person-card-text">Department of Surgery, School of Medicine and Public Health</p>
+                        <p class="person-card-text">University of Wisconsin-Madison</p>
+                        <p class="person-card-text">Email: <a href="mailto:tremmel@wisc.edu">tremmel@wisc.edu</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs mx-5">
+                <div class="person-card">
+                    <img src="{{url_for('static', filename='media/SaraSackett.jpg')}}" class="card-img-top" alt="Sara Sackett, Ph.D">
+                    <div class="card-body">
+                    <h5 class="card-title">Sara Dutton Sackett, PhD</h5>
+                    <p class="person-card-text">Principal Scientist</p>
+                        <p class="person-card-text">Department of Surgery, School of Medicine and Public Health</p>
+                        <p class="person-card-text">University of Wisconsin-Madison</p>
+                        <p class="person-card-text">Email: <a href="mailto:sackett@surgery.wisc.edu">sackett@surgery.wisc.edu</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs mr-5">
+                <div class="person-card">
+                    <img src="{{url_for('static', filename='media/JonOdorico.jpg')}}" class="card-img-top" alt="Jon Odorico, M.D.">
+                    <div class="card-body">
+                    <h5 class="card-title">Jon Odorico, M.D.</h5>
+                    <p class="person-card-text">Professor </p>
+                            <p class="person-card-text">Department of Surgery, School of Medicine and Public Health</p>
+                            <p class="person-card-text">University of Wisconsin-Madison</p>
+                            <p class="person-card-text">Email: <a href="mailto: jon@surgery.wisc.edu"> jon@surgery.wisc.edu</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+{% endblock %}

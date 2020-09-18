@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+  {{ super() }} 
+  
+  <meta charset="utf-8">
+  
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  <!-- <link rel="stylesheet" href="../static/css/dataTables.bootstrap.css"> -->
+  <link rel="stylesheet" type="text/css" href="https://code.jquery.com/jquery-3.5.1.js">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <title>DataTable Example</title>
+{% endblock %}
+{% block content %}
+  <body>
+      <div class="container">
+          <div class="row-full">
+              <div class="col-xs-12">
+                  <table id="example"/>
+                  </table>
+              </div>
+          </div>
+      </div>
+      <div class="container">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Custom accession search</span>
+        </div>
+        <textarea class="form-control" id="input-text" aria-label="With textarea"></textarea>
+        <input class="btn btn-primary" type="button" value="Search" onclick="inputText(0)">
+      </div>
+    </div>
+    {% block script %}
+    {{ super() }}
+    <script src="{{url_for('static', filename='js/jquery.js')}}")></script>
+    <script src="{{url_for('static', filename='js/jquery.dataTables.js')}}")></script>
+    <script src="{{url_for('static', filename='js/bootstrap.js')}}")></script>
+    <script src="{{url_for('static', filename='js/dataTables.bootstrap.js')}}")></script>
+    <script src="{{url_for('static', filename='js/script.js')}}")></script>
+    {% endblock %}
+    </body>
+{% endblock %}

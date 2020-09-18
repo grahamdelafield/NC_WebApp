@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Download{% endblock %}
+{% block content %}
+<section class="container">
+    <div class="jumbotron">
+        <h1 class="" style="text-align: center;">Download the data</h1>
+        <p class="lead" style="text-align: center;">This page contains all the data used within the publication (___enter here__)
+           and the associated web application, available in .xslx format. Please contact the authors with questions and concerns.</p>
+        <button class='download'>
+            <a class="download" href="/download/all_data" download>Download all data</a>
+        </button>
+    </div>
+</section>
+<section class="container">
+    <div class="row">
+        <div class="col-sm ml-1 mt-2">
+            <div class="card">
+                <div class="card-body">
+                <h5 class="card-title">Identified ECM</h5>
+                <p class="card-text">This dataset contains the full list of all 
+                    identified ECM proteins. Proteins common to all groups (quantified) 
+                    are highlighted.</p>
+                <a href="/download/ecm_only" class="btn btn-primary">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm ml-1 mt-2">
+            <div class="card" style="height: 320px !important;">
+                <div class="card-body">
+                <h5 class="card-title">Quantified ECM</h5>
+                <p class="card-text">This dataset contains the list of all quantified 
+                    ECM proteins. Log<sub>2</sub> DiLeu reporter ion intensities of each 
+                    protein in all samples are shown. Significantly changed 
+                    proteins among age groups are highlighted. It also contains 
+                    information of all pairwise comparisons between different groups.</p>
+                <a href="/download/ecm_quant" class="btn btn-primary">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm ml-1 mt-2">
+            <div class="card">
+                <div class="card-body">
+                <h5 class="card-title">Identified proteins</h5>
+                <p class="card-text">This dataset contains the full list of all 
+                    identified proteins. Results are organized by accession number 
+                    and protein name.
+                </p>
+                <a href="/download/protein" class="btn btn-primary">Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm ml-1 mt-2">
+            <div class="card" style="height: 300px !important;">
+                <div class="card-body">
+                <h5 class="card-title">Quantified Proteins</h5>
+                <p class="card-text">This dataset contains the list of all 
+                    quantified proteins. Log<sub>2</sub> DiLeu reporter ion intensities of 
+                    each protein in all samples are shown. Significantly changed 
+                    proteins among age groups are highlighted. It also contains 
+                    information of all pairwise comparisons between different groups.
+                </p>
+                <a href="/download/protein_quant" class="btn btn-primary">Download</a>
+                </div>
+            </div>
+        </div> 
+</section>
+{% endblock %}
