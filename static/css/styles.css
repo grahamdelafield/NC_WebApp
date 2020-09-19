@@ -27,16 +27,16 @@
     margin: auto;
     display: flex;
 }
+.lab-heading {
+    padding-left: 5px;
+}
 .card {
     width: 250px;
     height: 200px;
 }
 .card-title {
     font-size: 26px;
-    text-align: center;
-}
-.person-card {
-    width: 325px;
+    text-align: left;
 }
 .card-img-top {
     width: 200px;
@@ -44,8 +44,8 @@
     margin-left: 10px;
     margin-right: auto;
 }
-.card-title {
-    text-align: left;
+.person-card {
+    width: 325px;
 }
 .person-card-text {
     font-size: 16px;
