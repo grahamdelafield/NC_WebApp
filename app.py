@@ -1,8 +1,13 @@
-from flask import Flask, redirect, url_for, render_template, Response, send_file, jsonify
+from flask import Flask, redirect, url_for, render_template, Response, send_file, jsonify, send_from_directory
 import pandas as pd
 import json
 
 app = Flask(__name__)
+
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory('static/media/', 'LiClaw.ico',
+                                mimetype='image/vnd.microsoft.icon')
 
 @app.route("/")
 def home():
